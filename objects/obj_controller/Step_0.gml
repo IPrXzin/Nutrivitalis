@@ -1,0 +1,20 @@
+// No objeto arrastável, Step Event
+if (mouse_check_button_pressed(mb_left) && global.objeto_sendo_arrastado == noone){
+    if (position_meeting(mouse_x, mouse_y, id)) {
+        global.objeto_sendo_arrastado = id;
+        offset_x = x - mouse_x;
+        offset_y = y - mouse_y;
+	
+    }
+}
+
+if (global.objeto_sendo_arrastado == id) {
+    if (mouse_check_button_released(mb_left)) {
+        global.objeto_sendo_arrastado = noone;
+		
+    } else {
+        x = mouse_x + offset_x;
+        y = mouse_y + offset_y;
+		
+    }
+}

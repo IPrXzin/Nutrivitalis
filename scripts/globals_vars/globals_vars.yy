@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"globals_vars",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"globals_vars",
+  "parent":{
+    "name":"Nutrivitalis",
+    "path":"Nutrivitalis.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
