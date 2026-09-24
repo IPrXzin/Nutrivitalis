@@ -4,7 +4,7 @@ if (mouse_check_button_pressed(mb_left) && global.objeto_sendo_arrastado == noon
         global.objeto_sendo_arrastado = id;
         offset_x = x - mouse_x;
         offset_y = y - mouse_y;
-	
+		hspeed = 0
     }
 }
 

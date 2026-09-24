@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_morango",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bife",
+  "eventList":[],
   "managed":true,
-  "name":"obj_morango",
+  "name":"obj_bife",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,15 +26,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"tipo","filters":[],"listItems":[],"multiselect":false,"name":"tipo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fruta","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_morango",
-    "path":"sprites/spr_morango/spr_morango.yy",
+    "name":"spr_bife",
+    "path":"sprites/spr_bife/spr_bife.yy",
   },
   "spriteMaskId":null,
   "visible":true,
