@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_portal_carnes",
+  "%Name":"obj_teste",
   "eventList":[],
   "managed":true,
-  "name":"obj_portal_carnes",
+  "name":"obj_teste",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

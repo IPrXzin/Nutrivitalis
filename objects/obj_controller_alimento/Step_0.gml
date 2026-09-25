@@ -12,9 +12,29 @@ if (global.objeto_sendo_arrastado == id) {
     if (mouse_check_button_released(mb_left)) {
         global.objeto_sendo_arrastado = noone;
 		
+		var _portal = instance_place(x,y,obj_portal_pai)
+		
+		if(_portal != noone)
+		
+			if(_portal.tipo == tipo){
+				show_debug_message("certo")
+			}else{
+				show_debug_message("errado")
+			}
+		
     } else {
         x = mouse_x + offset_x;
         y = mouse_y + offset_y;
 		
     }
+}
+
+
+
+if(x > 928){
+	
+	if(global.objeto_sendo_arrastado == id){
+		global.objeto_sendo_arrastado = noone
+	}
+	instance_destroy()
 }
