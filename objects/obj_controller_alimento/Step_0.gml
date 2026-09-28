@@ -18,8 +18,10 @@ if (global.objeto_sendo_arrastado == id) {
 		
 			if(_portal.tipo == tipo){
 				show_debug_message("certo")
+				msg = "certo"
 			}else{
 				show_debug_message("errado")
+				msg = "errado"
 			}
 		
     } else {
@@ -31,7 +33,7 @@ if (global.objeto_sendo_arrastado == id) {
 
 
 
-if(x > 928){
+if(x > room_width + 50){
 	
 	if(global.objeto_sendo_arrastado == id){
 		global.objeto_sendo_arrastado = noone
