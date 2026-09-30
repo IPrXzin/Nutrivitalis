@@ -41,7 +41,7 @@
     {"id":{"name":"obj_teste","path":"objects/obj_teste/obj_teste.yy",},},
     {"id":{"name":"obj_tomate","path":"objects/obj_tomate/obj_tomate.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"globals_vars","path":"scripts/globals_vars/globals_vars.yy",},},
+    {"id":{"name":"scr_globals_vars","path":"scripts/scr_globals_vars/scr_globals_vars.yy",},},
     {"id":{"name":"spr_alface","path":"sprites/spr_alface/spr_alface.yy",},},
     {"id":{"name":"spr_alho","path":"sprites/spr_alho/spr_alho.yy",},},
     {"id":{"name":"spr_banana","path":"sprites/spr_banana/spr_banana.yy",},},

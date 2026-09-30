@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"globals_vars",
+  "%Name":"scr_globals_vars",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"globals_vars",
+  "name":"scr_globals_vars",
   "parent":{
     "name":"Nutrivitalis",
     "path":"Nutrivitalis.yyp",

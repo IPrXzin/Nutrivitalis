@@ -1,4 +1,4 @@
 
 event_inherited();
 
-tipo = "fruta"
+tipo = tipo_alimento.fruta
